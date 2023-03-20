@@ -1,0 +1,150 @@
+/*////////////////////////
+    Table of Contents
+    1. Global Styles
+    2. Typography
+    3. Layout
+        3.1 Reusables
+        3.2 Other
+    4. Areas
+        4.1 Header
+        4.2 Introduction
+        etc.
+    5. Media Queries
+////////////////////////*/
+
+/* ------------------------------- 1. Global Styles -------------------------------- */
+/* css reset */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto&display=swap');
+
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul, li {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    font-family: "merriweather", serif;
+}
+
+ol, ul, li {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+/* ------------------------------- 2. Typography ----------------------------------- */
+
+/* ------------------------------- 3. Layout --------------------------------------- */
+/*colours
+Paars #5722CD;
+Blauw #4845E4;
+Roze #ED4385;
+Zwart #0C0C0C (voor standaard tekst);
+Lichtpaars #F2F0FF (voor de grote zwevende woorden, zoals "hello" en "services") Uitzonderingen:
+Lichtgrijs #F3F6F9 (voor de achtergrond van de projecten)
+Grijs #7A7A7A (voor de service-tegel tekst);
+*/
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: space-around;
+    border: none;
+    border-color: #5722CD;
+    background: #5722CD;
+    color: #ffffff;
+}
+/*nav, ul, li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+
+
+}*/
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-color: #5722CD;
+    padding: 150px;
+    background: #5722CD;
+    color: #ffffff;
+}
+a:link , a:visited{
+    color: #ffffff;
+}
+
+button {
+    text-decoration: none;
+    font-family: 'Merriweather', serif;
+    color: #ffffff;
+    background-color: #ED4385;
+    border-radius: 50px;
+    padding: 10px;
+
+}
+
+.hello {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: #5722CD;
+    background-color: #ffffff;
+}
+
+h3 {
+    color: #000000;
+}
+.click:link, .click:visited {
+    color: #5722CD;
+    text-decoration: none;
+
+}
+.rolling-stone {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.variety{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+.worth {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.h3-footer {
+    color: #ffffff;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Merriweather', serif;
+    color: #ffffff;
+}
+/* --------------- 3.1 Reusables ----------------------- */
+
+/* --------------- 3.2 Other --------------------------- */
+
+/* ------------------------------- 4. Areas ---------------------------------------- */
+
+/* --------------- 4.1 Header ------------------------- */
+
+/* --------------- 4.2 Introduction ------------------- */
+
+/* ------------------------------- 5. Media Queries -------------------------------- */
